@@ -114,7 +114,7 @@ class Item(object):
         return []
 
 class Part(Item):
-    """A representation of a bike part which is an item that also has a cost."""
+    """A representation of a part which is an item that also has a cost."""
     
     def __init__(self, itemID, name, cost):
         """Initialise a part with item name, item ID and cost.
@@ -688,7 +688,7 @@ class Entbox(Frame):
 
 class StoreApp():
     def __init__(self, master=None):
-        master.title("Bikes R Us: Products")
+        master.title("Parts List: Products")
         self.controller = Controller(master)
 
 def main():
