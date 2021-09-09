@@ -1,4 +1,4 @@
-# Bike List
+# Parts List
 Interface for reading lists of parts from a file that can then have more parts added with prices or compounds of many parts that reflect the total price.
 
 ## Installation
